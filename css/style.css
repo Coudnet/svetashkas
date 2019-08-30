@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.Page {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    font-family: 'Noto Sans Pro', sans-serif;
+    overflow: hidden;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 10px;
+}
+
+.Logo-Face {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.Logo-Face img {
+    width: 100%;
+}
+
+.Logo-Text {
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.FlowerContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+.Flower {
+    width: 300px;
+    height: 300px;
+}
+
+.Flower img {
+    width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+    .Logo-Face {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Logo-Text {
+        font-size: 40px;
+    }
+}
